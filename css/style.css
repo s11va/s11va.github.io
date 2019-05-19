@@ -1,0 +1,284 @@
+/* Start FOnt */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* End Font */
+
+/* Start Body */
+body {
+    background-color: aquamarine;
+    color: black; 
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+    .bg-blue {
+        background-color: blue;
+    }
+    .bg-red {
+        background-color: red;      
+    }
+    .bg-greenyellow {
+        background-color: greenyellow;  
+    }
+    .bg-gainsboro {
+        background-color: gainsboro;  
+    }    
+/* End Debug */
+
+/* Start Container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container*/
+
+/* Start Logo*/
+.logo {
+    text-align: center;
+}
+/* End Logo*/
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: gray;
+    border-radius: 4px;
+    box-shadoww: 
+}
+.menu-primer li{
+    border-right: 1px solid wheat;
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: wheat;
+    font-size: 13px;
+    display: inline-block;
+    margin: 0 -4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    letter spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background: red;
+    border: blanchedalmond;
+    border-radius: 4px;
+    padding: 20px 0;
+    }
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 50%;
+}
+
+.main-home-two {
+    float: right;
+    width: 50%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 70%;
+}
+/* End Main*/
+
+/* Start Sidebar */
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width: 29%;
+}
+/* End Sidebar */
+
+/* Start Box */
+.box-heading {
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: bisque
+    border: 1px solid red;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Testimonial */
+.testimonial {
+    border-left: 4px solid grey;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* End Testimonial */
+
+/* Start Form */
+input [type="text"],
+input [type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: grey;
+    font-weight: 300;
+} 
+
+input[type="submit"],
+.button {
+    background-color: grey;
+    background-image: repeating-linear-gradient(rgb(179, 135, 81)); 
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color: wheat !important;
+    font-zie: 12px;
+    font-weight: bolds;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* End Form */
+
+/* Start Contact Form */
+.contact-form div {
+    margin:20px 0;
+}
+/* End Contact Form */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: aqua;
+    border-bottom: 1px solid black;
+    border-top: 1px solid bisque;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    }
+.menu-sekunder ul {
+    padding: 0;
+    }
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekudner p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}    
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
+
+/* Start Anchor/ Hyperlink */
+a:link.
+a:visited {
+    color : blue;
+    text-decoration: underline;
+}
+a:hover {
+
+}
+/* End Anchor/ Hyperlink */
