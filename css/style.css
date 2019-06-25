@@ -4,8 +4,8 @@
 
 /* Start Body */
 body {
-    background-color: aquamarine;
-    color: black; 
+    background-color: rgb(181, 218, 113);
+    color: rgb(250, 240, 240); 
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5em;
@@ -27,6 +27,9 @@ body {
     .bg-gainsboro {
         background-color: gainsboro;  
     }    
+    .bg-rgb {
+        background-color: rgb(126, 124, 128)
+    }
 /* End Debug */
 
 /* Start Container*/
@@ -47,6 +50,12 @@ body {
     text-align: center;
 }
 /* End Logo*/
+
+/* Start Menu Tengah */
+.text-color {
+    color: yellow;
+}
+/* End Menu Tengah */
 
 /* Start Menu Primer */
 .menu-primer ul {
